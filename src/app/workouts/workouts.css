@@ -1,0 +1,86 @@
+/* workouts.css */
+
+.workouts-section {
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 60px;
+  }
+  
+  .category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .category h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #e50914; /* Netflix red color */
+  }
+  
+  .category p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .category:hover {
+    transform: translateY(-10px);
+  }
+  
+  .workout-previews {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+  
+  .workout {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .workout-image {
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .workout h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .workout p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .workout:hover {
+    transform: translateY(-10px);
+  }
+  
